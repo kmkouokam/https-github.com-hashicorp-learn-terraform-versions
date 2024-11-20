@@ -11,11 +11,11 @@ terraform {
     }
   }
 
-  required_version = "~> 0.12.29"
+  required_version = "~> 0.13.29"
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region     = "us-west-2"
   secret_key = "WvuujvIT6wuUku1+AP/OWFXEilL4sWVy0SxpnKxM"
   access_key = "AKIA2DWSHV24IWLUMRYI"
 }
